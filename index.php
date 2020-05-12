@@ -7,9 +7,6 @@
 <title>Words</title>
 </head>
 <body>
-<div class="container-fluid">
-<div class="row">
-<div class="col-md-12">
 <?php
 $myFile="keywords.txt";
 $fh=fopen($myFile, 'r');
@@ -22,8 +19,5 @@ echo $niz[array_rand($niz)];
 <br>
 <br>
 <a href="index.php">New words</a>
-</div>
-</div>
-</div>
 </body>
 </html>
